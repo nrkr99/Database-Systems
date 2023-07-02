@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+
+<Folder>
+    <name>Entrances</name>
+
+    <Placemark>
+        <name>USC Village</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28423692749656,34.023978921449945</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>USC Turf Field</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28602675359537,34.02625558435369</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Kauffman Entrance</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28535167511393,34.0241233958249</coordinates>
+        </Point>
+    </Placemark>
+</Folder>
+
+<Folder>
+    <name>Libraries</name>
+
+    <Placemark>
+        <name>Leavey Library</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28289033491932,34.02125297341273</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Doheny Library</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.2840680837325,34.020302472165255</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Wilson Library</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28602906211063,34.023623334909416</coordinates>
+        </Point>
+    </Placemark>
+</Folder>
+
+<Folder>
+    <name>Waterworks</name>
+
+    <Placemark>
+        <name>Trojan Fountain</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28521773230125,34.02028318497735</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>RTCC Fountain</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28610512439003,34.02049160099971</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>May Ormerod Fountain</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.28772386728129,34.0185575467055</coordinates>
+        </Point>
+    </Placemark>
+</Folder>
+
+<Folder>
+    <name>Eateries</name>
+
+    <Placemark>
+        <name>Jack in the Box</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.2780981667786,34.0251374216663</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Popeyes</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.2756397122829,34.02842924043197</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>CAVA</name>
+        <styleUrl>#z1</styleUrl>
+        <Point>
+            <coordinates>-118.2845796180128,34.025067240031554</coordinates>
+        </Point>
+    </Placemark>
+</Folder>
+
+<Placemark>
+    <name>Home</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>-118.28010208915758,34.02834737210918</coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>Convex Hull</name>
+    <Style><LineStyle><color>ffff7d53</color></LineStyle><PolyStyle><color>80fe4d28</color></PolyStyle></Style>
+    
+    <Polygon>
+        <outerBoundaryIs>
+            <LinearRing>
+                <coordinates>
+                -118.28772386728129,34.0185575467055 -118.28602675359537,34.02625558435369 -118.28010208915758,34.02834737210918 -118.2756397122829,34.02842924043197 -118.2780981667786,34.0251374216663 -118.28289033491932,34.02125297341273 -118.2840680837325,34.020302472165255 -118.28772386728129,34.0185575467055
+                </coordinates>
+                
+            </LinearRing>
+        </outerBoundaryIs>
+    </Polygon> 
+</Placemark>
+
+<Placemark>
+<name>Neighbour 1-Jack in the Box</name>
+    <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+    <LineString>
+        <coordinates>-118.28010208915758,34.02834737210918 -118.2780981667786,34.0251374216663</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour 2-Popeyes</name>
+   <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+    <LineString>
+        <coordinates>-118.28010208915758,34.02834737210918 -118.2756397122829,34.02842924043197</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour 3-CAVA</name>
+    <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+    <LineString>
+        <coordinates>-118.28010208915758,34.02834737210918 -118.2845796180128,34.025067240031554</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+    <name>Neighbour4-USC Village</name>
+    <Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+    <LineString>
+        <coordinates>-118.28010208915758,34.02834737210918 -118.28423692749656,34.023978921449945</coordinates>
+    </LineString>
+</Placemark> 
+
+</Document>
+</kml>
+
